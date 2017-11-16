@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B44C445CAE5D61A537A996E6 /* Pods_TheRoar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1121656ED299EDBD5906B82E /* Pods_TheRoar.framework */; };
+		CF044F651FA27A7700EB1B0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF044F641FA27A7700EB1B0B /* AppDelegate.swift */; };
+		CF044F671FA27A7700EB1B0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF044F661FA27A7700EB1B0B /* ViewController.swift */; };
+		CF044F6A1FA27A7700EB1B0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF044F681FA27A7700EB1B0B /* Main.storyboard */; };
+		CF044F6C1FA27A7700EB1B0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF044F6B1FA27A7700EB1B0B /* Assets.xcassets */; };
+		CF044F6F1FA27A7700EB1B0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF044F6D1FA27A7700EB1B0B /* LaunchScreen.storyboard */; };
+		CF044F771FA3677D00EB1B0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF044F761FA3677D00EB1B0B /* GoogleService-Info.plist */; };
+		CF1744281FB3C79A001A5838 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = CF1744101FB3C79A001A5838 /* Contents.json */; };
+		CF1744291FB3C79A001A5838 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1744111FB3C79A001A5838 /* Icon-App-20x20@1x.png */; };
+		CF17442A1FB3C79A001A5838 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1744121FB3C79A001A5838 /* Icon-App-20x20@2x.png */; };
+		CF17442B1FB3C79A001A5838 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1744131FB3C79A001A5838 /* Icon-App-20x20@3x.png */; };
+		CF17442C1FB3C79A001A5838 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1744141FB3C79A001A5838 /* Icon-App-29x29@1x.png */; };
+		CF17442D1FB3C79A001A5838 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1744151FB3C79A001A5838 /* Icon-App-29x29@2x.png */; };
+		CF17442E1FB3C79A001A5838 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1744161FB3C79A001A5838 /* Icon-App-29x29@3x.png */; };
+		CF17442F1FB3C79A001A5838 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1744171FB3C79A001A5838 /* Icon-App-40x40@1x.png */; };
+		CF1744301FB3C79A001A5838 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1744181FB3C79A001A5838 /* Icon-App-40x40@2x.png */; };
+		CF1744311FB3C79A001A5838 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1744191FB3C79A001A5838 /* Icon-App-40x40@3x.png */; };
+		CF1744321FB3C79A001A5838 /* Icon-App-57x57@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF17441A1FB3C79A001A5838 /* Icon-App-57x57@1x.png */; };
+		CF1744331FB3C79A001A5838 /* Icon-App-57x57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF17441B1FB3C79A001A5838 /* Icon-App-57x57@2x.png */; };
+		CF1744341FB3C79A001A5838 /* Icon-App-60x60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF17441C1FB3C79A001A5838 /* Icon-App-60x60@1x.png */; };
+		CF1744351FB3C79A001A5838 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF17441D1FB3C79A001A5838 /* Icon-App-60x60@2x.png */; };
+		CF1744361FB3C79A001A5838 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF17441E1FB3C79A001A5838 /* Icon-App-60x60@3x.png */; };
+		CF1744371FB3C79A001A5838 /* Icon-App-72x72@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF17441F1FB3C79A001A5838 /* Icon-App-72x72@1x.png */; };
+		CF1744381FB3C79A001A5838 /* Icon-App-72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1744201FB3C79A001A5838 /* Icon-App-72x72@2x.png */; };
+		CF1744391FB3C79A001A5838 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1744211FB3C79A001A5838 /* Icon-App-76x76@1x.png */; };
+		CF17443A1FB3C79A001A5838 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1744221FB3C79A001A5838 /* Icon-App-76x76@2x.png */; };
+		CF17443B1FB3C79A001A5838 /* Icon-App-76x76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1744231FB3C79A001A5838 /* Icon-App-76x76@3x.png */; };
+		CF17443C1FB3C79A001A5838 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1744241FB3C79A001A5838 /* Icon-App-83.5x83.5@2x.png */; };
+		CF17443D1FB3C79A001A5838 /* Icon-Small-50x50@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1744251FB3C79A001A5838 /* Icon-Small-50x50@1x.png */; };
+		CF17443E1FB3C79A001A5838 /* Icon-Small-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1744261FB3C79A001A5838 /* Icon-Small-50x50@2x.png */; };
+		CF17443F1FB3C79A001A5838 /* ItunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1744271FB3C79A001A5838 /* ItunesArtwork@2x.png */; };
+		CF61085F1FB0A67B00470F32 /* Default-750@2x~iphone6-portrait_750x1334.png in Resources */ = {isa = PBXBuildFile; fileRef = CF61083E1FB0A67B00470F32 /* Default-750@2x~iphone6-portrait_750x1334.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1121656ED299EDBD5906B82E /* Pods_TheRoar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheRoar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D75068301CBCE113A086D91 /* Pods-TheRoar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheRoar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TheRoar/Pods-TheRoar.debug.xcconfig"; sourceTree = "<group>"; };
+		CF044F611FA27A7700EB1B0B /* TheRoar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheRoar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF044F641FA27A7700EB1B0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF044F661FA27A7700EB1B0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF044F691FA27A7700EB1B0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF044F6B1FA27A7700EB1B0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF044F6E1FA27A7700EB1B0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF044F701FA27A7700EB1B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF044F761FA3677D00EB1B0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CF1744101FB3C79A001A5838 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		CF1744111FB3C79A001A5838 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		CF1744121FB3C79A001A5838 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		CF1744131FB3C79A001A5838 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		CF1744141FB3C79A001A5838 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		CF1744151FB3C79A001A5838 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		CF1744161FB3C79A001A5838 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		CF1744171FB3C79A001A5838 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		CF1744181FB3C79A001A5838 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		CF1744191FB3C79A001A5838 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		CF17441A1FB3C79A001A5838 /* Icon-App-57x57@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@1x.png"; sourceTree = "<group>"; };
+		CF17441B1FB3C79A001A5838 /* Icon-App-57x57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-57x57@2x.png"; sourceTree = "<group>"; };
+		CF17441C1FB3C79A001A5838 /* Icon-App-60x60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@1x.png"; sourceTree = "<group>"; };
+		CF17441D1FB3C79A001A5838 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		CF17441E1FB3C79A001A5838 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		CF17441F1FB3C79A001A5838 /* Icon-App-72x72@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@1x.png"; sourceTree = "<group>"; };
+		CF1744201FB3C79A001A5838 /* Icon-App-72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-72x72@2x.png"; sourceTree = "<group>"; };
+		CF1744211FB3C79A001A5838 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		CF1744221FB3C79A001A5838 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		CF1744231FB3C79A001A5838 /* Icon-App-76x76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@3x.png"; sourceTree = "<group>"; };
+		CF1744241FB3C79A001A5838 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		CF1744251FB3C79A001A5838 /* Icon-Small-50x50@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@1x.png"; sourceTree = "<group>"; };
+		CF1744261FB3C79A001A5838 /* Icon-Small-50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50x50@2x.png"; sourceTree = "<group>"; };
+		CF1744271FB3C79A001A5838 /* ItunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ItunesArtwork@2x.png"; sourceTree = "<group>"; };
+		CF4B64731FA76CF8007DCA23 /* TheRoar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheRoar.entitlements; sourceTree = "<group>"; };
+		CF61083E1FB0A67B00470F32 /* Default-750@2x~iphone6-portrait_750x1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-750@2x~iphone6-portrait_750x1334.png"; sourceTree = "<group>"; };
+		E0648891F8463214F7AC1126 /* Pods-TheRoar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheRoar.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheRoar/Pods-TheRoar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF044F5E1FA27A7700EB1B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B44C445CAE5D61A537A996E6 /* Pods_TheRoar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		291373D55A222357ED53CB13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1121656ED299EDBD5906B82E /* Pods_TheRoar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3910C4C6E51ACA712E80347F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D75068301CBCE113A086D91 /* Pods-TheRoar.debug.xcconfig */,
+				E0648891F8463214F7AC1126 /* Pods-TheRoar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF044F581FA27A7700EB1B0B = {
+			isa = PBXGroup;
+			children = (
+				CF044F631FA27A7700EB1B0B /* TheRoar */,
+				CF044F621FA27A7700EB1B0B /* Products */,
+				3910C4C6E51ACA712E80347F /* Pods */,
+				291373D55A222357ED53CB13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF044F621FA27A7700EB1B0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF044F611FA27A7700EB1B0B /* TheRoar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF044F631FA27A7700EB1B0B /* TheRoar */ = {
+			isa = PBXGroup;
+			children = (
+				CF4B64731FA76CF8007DCA23 /* TheRoar.entitlements */,
+				CF044F641FA27A7700EB1B0B /* AppDelegate.swift */,
+				CF044F661FA27A7700EB1B0B /* ViewController.swift */,
+				CF044F681FA27A7700EB1B0B /* Main.storyboard */,
+				CF044F6B1FA27A7700EB1B0B /* Assets.xcassets */,
+				CF17440F1FB3C79A001A5838 /* AppIcon.appiconset */,
+				CF61083E1FB0A67B00470F32 /* Default-750@2x~iphone6-portrait_750x1334.png */,
+				CF044F6D1FA27A7700EB1B0B /* LaunchScreen.storyboard */,
+				CF044F701FA27A7700EB1B0B /* Info.plist */,
+				CF044F761FA3677D00EB1B0B /* GoogleService-Info.plist */,
+			);
+			path = TheRoar;
+			sourceTree = "<group>";
+		};
+		CF17440F1FB3C79A001A5838 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				CF1744101FB3C79A001A5838 /* Contents.json */,
+				CF1744111FB3C79A001A5838 /* Icon-App-20x20@1x.png */,
+				CF1744121FB3C79A001A5838 /* Icon-App-20x20@2x.png */,
+				CF1744131FB3C79A001A5838 /* Icon-App-20x20@3x.png */,
+				CF1744141FB3C79A001A5838 /* Icon-App-29x29@1x.png */,
+				CF1744151FB3C79A001A5838 /* Icon-App-29x29@2x.png */,
+				CF1744161FB3C79A001A5838 /* Icon-App-29x29@3x.png */,
+				CF1744171FB3C79A001A5838 /* Icon-App-40x40@1x.png */,
+				CF1744181FB3C79A001A5838 /* Icon-App-40x40@2x.png */,
+				CF1744191FB3C79A001A5838 /* Icon-App-40x40@3x.png */,
+				CF17441A1FB3C79A001A5838 /* Icon-App-57x57@1x.png */,
+				CF17441B1FB3C79A001A5838 /* Icon-App-57x57@2x.png */,
+				CF17441C1FB3C79A001A5838 /* Icon-App-60x60@1x.png */,
+				CF17441D1FB3C79A001A5838 /* Icon-App-60x60@2x.png */,
+				CF17441E1FB3C79A001A5838 /* Icon-App-60x60@3x.png */,
+				CF17441F1FB3C79A001A5838 /* Icon-App-72x72@1x.png */,
+				CF1744201FB3C79A001A5838 /* Icon-App-72x72@2x.png */,
+				CF1744211FB3C79A001A5838 /* Icon-App-76x76@1x.png */,
+				CF1744221FB3C79A001A5838 /* Icon-App-76x76@2x.png */,
+				CF1744231FB3C79A001A5838 /* Icon-App-76x76@3x.png */,
+				CF1744241FB3C79A001A5838 /* Icon-App-83.5x83.5@2x.png */,
+				CF1744251FB3C79A001A5838 /* Icon-Small-50x50@1x.png */,
+				CF1744261FB3C79A001A5838 /* Icon-Small-50x50@2x.png */,
+				CF1744271FB3C79A001A5838 /* ItunesArtwork@2x.png */,
+			);
+			name = AppIcon.appiconset;
+			path = "../../../Downloads/Logo-2/ios/AppIcon.appiconset";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF044F601FA27A7700EB1B0B /* TheRoar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF044F731FA27A7700EB1B0B /* Build configuration list for PBXNativeTarget "TheRoar" */;
+			buildPhases = (
+				D59240936016A131D62A3311 /* [CP] Check Pods Manifest.lock */,
+				CF044F5D1FA27A7700EB1B0B /* Sources */,
+				CF044F5E1FA27A7700EB1B0B /* Frameworks */,
+				CF044F5F1FA27A7700EB1B0B /* Resources */,
+				BAE1CE61CCCB618CFDCE01F5 /* [CP] Embed Pods Frameworks */,
+				B57E2DB4CB649CBC504E574A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheRoar;
+			productName = TheRoar;
+			productReference = CF044F611FA27A7700EB1B0B /* TheRoar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF044F591FA27A7700EB1B0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "The Roar";
+				TargetAttributes = {
+					CF044F601FA27A7700EB1B0B = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CF044F5C1FA27A7700EB1B0B /* Build configuration list for PBXProject "TheRoar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF044F581FA27A7700EB1B0B;
+			productRefGroup = CF044F621FA27A7700EB1B0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF044F601FA27A7700EB1B0B /* TheRoar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF044F5F1FA27A7700EB1B0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1744311FB3C79A001A5838 /* Icon-App-40x40@3x.png in Resources */,
+				CF1744291FB3C79A001A5838 /* Icon-App-20x20@1x.png in Resources */,
+				CF61085F1FB0A67B00470F32 /* Default-750@2x~iphone6-portrait_750x1334.png in Resources */,
+				CF17442A1FB3C79A001A5838 /* Icon-App-20x20@2x.png in Resources */,
+				CF17443F1FB3C79A001A5838 /* ItunesArtwork@2x.png in Resources */,
+				CF044F6F1FA27A7700EB1B0B /* LaunchScreen.storyboard in Resources */,
+				CF1744321FB3C79A001A5838 /* Icon-App-57x57@1x.png in Resources */,
+				CF044F771FA3677D00EB1B0B /* GoogleService-Info.plist in Resources */,
+				CF17442E1FB3C79A001A5838 /* Icon-App-29x29@3x.png in Resources */,
+				CF17443C1FB3C79A001A5838 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				CF17443A1FB3C79A001A5838 /* Icon-App-76x76@2x.png in Resources */,
+				CF1744391FB3C79A001A5838 /* Icon-App-76x76@1x.png in Resources */,
+				CF1744381FB3C79A001A5838 /* Icon-App-72x72@2x.png in Resources */,
+				CF17443D1FB3C79A001A5838 /* Icon-Small-50x50@1x.png in Resources */,
+				CF1744351FB3C79A001A5838 /* Icon-App-60x60@2x.png in Resources */,
+				CF17442D1FB3C79A001A5838 /* Icon-App-29x29@2x.png in Resources */,
+				CF1744341FB3C79A001A5838 /* Icon-App-60x60@1x.png in Resources */,
+				CF1744361FB3C79A001A5838 /* Icon-App-60x60@3x.png in Resources */,
+				CF17442F1FB3C79A001A5838 /* Icon-App-40x40@1x.png in Resources */,
+				CF17442C1FB3C79A001A5838 /* Icon-App-29x29@1x.png in Resources */,
+				CF17443B1FB3C79A001A5838 /* Icon-App-76x76@3x.png in Resources */,
+				CF17442B1FB3C79A001A5838 /* Icon-App-20x20@3x.png in Resources */,
+				CF1744301FB3C79A001A5838 /* Icon-App-40x40@2x.png in Resources */,
+				CF17443E1FB3C79A001A5838 /* Icon-Small-50x50@2x.png in Resources */,
+				CF044F6C1FA27A7700EB1B0B /* Assets.xcassets in Resources */,
+				CF044F6A1FA27A7700EB1B0B /* Main.storyboard in Resources */,
+				CF1744281FB3C79A001A5838 /* Contents.json in Resources */,
+				CF1744371FB3C79A001A5838 /* Icon-App-72x72@1x.png in Resources */,
+				CF1744331FB3C79A001A5838 /* Icon-App-57x57@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B57E2DB4CB649CBC504E574A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheRoar/Pods-TheRoar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAE1CE61CCCB618CFDCE01F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TheRoar/Pods-TheRoar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TheRoar/Pods-TheRoar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D59240936016A131D62A3311 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheRoar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF044F5D1FA27A7700EB1B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF044F671FA27A7700EB1B0B /* ViewController.swift in Sources */,
+				CF044F651FA27A7700EB1B0B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF044F681FA27A7700EB1B0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF044F691FA27A7700EB1B0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF044F6D1FA27A7700EB1B0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF044F6E1FA27A7700EB1B0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF044F711FA27A7700EB1B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF044F721FA27A7700EB1B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF044F741FA27A7700EB1B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D75068301CBCE113A086D91 /* Pods-TheRoar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TheRoar/TheRoar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZAV6QV9387;
+				INFOPLIST_FILE = TheRoar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nvroar.TheRoar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF044F751FA27A7700EB1B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0648891F8463214F7AC1126 /* Pods-TheRoar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TheRoar/TheRoar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZAV6QV9387;
+				INFOPLIST_FILE = TheRoar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nvroar.TheRoar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF044F5C1FA27A7700EB1B0B /* Build configuration list for PBXProject "TheRoar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF044F711FA27A7700EB1B0B /* Debug */,
+				CF044F721FA27A7700EB1B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF044F731FA27A7700EB1B0B /* Build configuration list for PBXNativeTarget "TheRoar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF044F741FA27A7700EB1B0B /* Debug */,
+				CF044F751FA27A7700EB1B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF044F591FA27A7700EB1B0B /* Project object */;
+}
