@@ -39,6 +39,9 @@
 		CF17443E1FB3C79A001A5838 /* Icon-Small-50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1744261FB3C79A001A5838 /* Icon-Small-50x50@2x.png */; };
 		CF17443F1FB3C79A001A5838 /* ItunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF1744271FB3C79A001A5838 /* ItunesArtwork@2x.png */; };
 		CF61085F1FB0A67B00470F32 /* Default-750@2x~iphone6-portrait_750x1334.png in Resources */ = {isa = PBXBuildFile; fileRef = CF61083E1FB0A67B00470F32 /* Default-750@2x~iphone6-portrait_750x1334.png */; };
+		CFE749B01FBDE3A6003AFDE5 /* icons8-back-50.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE749AD1FBDE3A4003AFDE5 /* icons8-back-50.png */; };
+		CFE749B11FBDE3A6003AFDE5 /* icons8-forward-50.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE749AE1FBDE3A4003AFDE5 /* icons8-forward-50.png */; };
+		CFE749B21FBDE3A6003AFDE5 /* icons8-reset-50.png in Resources */ = {isa = PBXBuildFile; fileRef = CFE749AF1FBDE3A5003AFDE5 /* icons8-reset-50.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +81,9 @@
 		CF1744271FB3C79A001A5838 /* ItunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ItunesArtwork@2x.png"; sourceTree = "<group>"; };
 		CF4B64731FA76CF8007DCA23 /* TheRoar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TheRoar.entitlements; sourceTree = "<group>"; };
 		CF61083E1FB0A67B00470F32 /* Default-750@2x~iphone6-portrait_750x1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-750@2x~iphone6-portrait_750x1334.png"; sourceTree = "<group>"; };
+		CFE749AD1FBDE3A4003AFDE5 /* icons8-back-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-back-50.png"; sourceTree = "<group>"; };
+		CFE749AE1FBDE3A4003AFDE5 /* icons8-forward-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-forward-50.png"; sourceTree = "<group>"; };
+		CFE749AF1FBDE3A5003AFDE5 /* icons8-reset-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-reset-50.png"; sourceTree = "<group>"; };
 		E0648891F8463214F7AC1126 /* Pods-TheRoar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheRoar.release.xcconfig"; path = "Pods/Target Support Files/Pods-TheRoar/Pods-TheRoar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,6 +137,9 @@
 		CF044F631FA27A7700EB1B0B /* TheRoar */ = {
 			isa = PBXGroup;
 			children = (
+				CFE749AD1FBDE3A4003AFDE5 /* icons8-back-50.png */,
+				CFE749AE1FBDE3A4003AFDE5 /* icons8-forward-50.png */,
+				CFE749AF1FBDE3A5003AFDE5 /* icons8-reset-50.png */,
 				CF4B64731FA76CF8007DCA23 /* TheRoar.entitlements */,
 				CF044F641FA27A7700EB1B0B /* AppDelegate.swift */,
 				CF044F661FA27A7700EB1B0B /* ViewController.swift */,
@@ -255,12 +264,14 @@
 				CF17442E1FB3C79A001A5838 /* Icon-App-29x29@3x.png in Resources */,
 				CF17443C1FB3C79A001A5838 /* Icon-App-83.5x83.5@2x.png in Resources */,
 				CF17443A1FB3C79A001A5838 /* Icon-App-76x76@2x.png in Resources */,
+				CFE749B01FBDE3A6003AFDE5 /* icons8-back-50.png in Resources */,
 				CF1744391FB3C79A001A5838 /* Icon-App-76x76@1x.png in Resources */,
 				CF1744381FB3C79A001A5838 /* Icon-App-72x72@2x.png in Resources */,
 				CF17443D1FB3C79A001A5838 /* Icon-Small-50x50@1x.png in Resources */,
 				CF1744351FB3C79A001A5838 /* Icon-App-60x60@2x.png in Resources */,
 				CF17442D1FB3C79A001A5838 /* Icon-App-29x29@2x.png in Resources */,
 				CF1744341FB3C79A001A5838 /* Icon-App-60x60@1x.png in Resources */,
+				CFE749B11FBDE3A6003AFDE5 /* icons8-forward-50.png in Resources */,
 				CF1744361FB3C79A001A5838 /* Icon-App-60x60@3x.png in Resources */,
 				CF17442F1FB3C79A001A5838 /* Icon-App-40x40@1x.png in Resources */,
 				CF17442C1FB3C79A001A5838 /* Icon-App-29x29@1x.png in Resources */,
@@ -270,6 +281,7 @@
 				CF17443E1FB3C79A001A5838 /* Icon-Small-50x50@2x.png in Resources */,
 				CF044F6C1FA27A7700EB1B0B /* Assets.xcassets in Resources */,
 				CF044F6A1FA27A7700EB1B0B /* Main.storyboard in Resources */,
+				CFE749B21FBDE3A6003AFDE5 /* icons8-reset-50.png in Resources */,
 				CF1744281FB3C79A001A5838 /* Contents.json in Resources */,
 				CF1744371FB3C79A001A5838 /* Icon-App-72x72@1x.png in Resources */,
 				CF1744331FB3C79A001A5838 /* Icon-App-57x57@2x.png in Resources */,
