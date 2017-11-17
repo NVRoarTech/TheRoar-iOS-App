@@ -14,6 +14,16 @@ class ViewController: UIViewController, WKNavigationDelegate {
 
     @IBOutlet weak var loadingScreen: UIImageView!
     @IBOutlet weak var myWebView: WKWebView!
+    @IBAction func goBack(_ sender: UIButton) {
+        if(myWebView.canGoBack) {
+            myWebView.goBack()
+        }
+    }
+    @IBAction func goForward(_ sender: UIButton) {
+        if(myWebView.canGoForward) {
+            myWebView.goForward()
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +49,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
         }
        
     }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -18,32 +18,61 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" customUserAgent="TheRoar iOS webView" translatesAutoresizingMaskIntoConstraints="NO" id="nv7-cF-sOB">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="68" width="375" height="599"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration" applicationNameForUserAgent="TheRoar iOS webView">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJZ-sz-JMA" userLabel="backButton">
+                                <rect key="frame" x="16" y="20" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Xk3-Wn-Oew"/>
+                                    <constraint firstAttribute="height" constant="40" id="pEQ-6x-jNR"/>
+                                </constraints>
+                                <state key="normal" image="icons8-back-50.png"/>
+                                <connections>
+                                    <action selector="goBack:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TGD-H4-IW5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gtC-5L-aWk" userLabel="forwardButton">
+                                <rect key="frame" x="319" y="20" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="KpT-2K-oEy"/>
+                                    <constraint firstAttribute="height" constant="40" id="yEn-2A-e0r"/>
+                                </constraints>
+                                <state key="normal" image="icons8-forward-50.png"/>
+                                <connections>
+                                    <action selector="goForward:" destination="BYZ-38-t0r" eventType="touchUpInside" id="19f-nZ-O6l"/>
+                                </connections>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default-7506-portrait_750x1334.png" translatesAutoresizingMaskIntoConstraints="NO" id="g1b-PW-gbW">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="nv7-cF-sOB" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="18c-Go-Kf7"/>
-                            <constraint firstItem="nv7-cF-sOB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1OH-3k-TMu"/>
+                            <constraint firstItem="uJZ-sz-JMA" firstAttribute="leading" secondItem="nv7-cF-sOB" secondAttribute="leading" constant="16" id="2WK-lb-dO0"/>
+                            <constraint firstAttribute="trailing" secondItem="nv7-cF-sOB" secondAttribute="trailing" id="9Lv-WE-R0k"/>
                             <constraint firstItem="g1b-PW-gbW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BDb-hc-hf6"/>
-                            <constraint firstItem="g1b-PW-gbW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="I41-ry-RiN"/>
-                            <constraint firstItem="nv7-cF-sOB" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="JeL-BP-qSm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gtC-5L-aWk" secondAttribute="trailing" constant="16" id="GYr-vW-Ilr"/>
+                            <constraint firstItem="nv7-cF-sOB" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Mha-he-TAD"/>
                             <constraint firstItem="g1b-PW-gbW" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="PMi-Ca-bhZ"/>
-                            <constraint firstItem="nv7-cF-sOB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="atP-59-0jc"/>
+                            <constraint firstItem="gtC-5L-aWk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="Qtr-0T-En2" userLabel="forwardButton.top = Safe Area.bottom"/>
+                            <constraint firstItem="uJZ-sz-JMA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="Xrx-Uz-s0b"/>
+                            <constraint firstItem="uJZ-sz-JMA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="g5n-LJ-FQ5" userLabel="backButton.top = Safe Area.bottom"/>
+                            <constraint firstItem="nv7-cF-sOB" firstAttribute="top" secondItem="uJZ-sz-JMA" secondAttribute="bottom" constant="8" id="gKb-o2-g2o" userLabel="My Web View.top = Button.bottom"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gtC-5L-aWk" secondAttribute="bottom" constant="607" id="iL1-Ow-Apq"/>
                             <constraint firstItem="g1b-PW-gbW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="kJW-Bn-3QL"/>
+                            <constraint firstAttribute="trailing" secondItem="uJZ-sz-JMA" secondAttribute="trailing" constant="319" id="kZR-6R-a4J"/>
+                            <constraint firstItem="gtC-5L-aWk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="319" id="wNZ-n1-aeq"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="loadingScreen" destination="g1b-PW-gbW" id="bTL-Zp-Yry"/>
+                        <outlet property="loadingScreen" destination="g1b-PW-gbW" id="fUw-vj-SWf"/>
                         <outlet property="myWebView" destination="nv7-cF-sOB" id="TeW-xS-MGR"/>
                     </connections>
                 </viewController>
@@ -54,5 +83,7 @@
     </scenes>
     <resources>
         <image name="Default-7506-portrait_750x1334.png" width="375" height="667"/>
+        <image name="icons8-back-50.png" width="50" height="50"/>
+        <image name="icons8-forward-50.png" width="50" height="50"/>
     </resources>
 </document>
