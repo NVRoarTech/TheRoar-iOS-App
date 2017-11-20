@@ -17,10 +17,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" customUserAgent="TheRoar iOS webView" translatesAutoresizingMaskIntoConstraints="NO" id="nv7-cF-sOB">
-                                <rect key="frame" x="0.0" y="68" width="375" height="599"/>
+                            <wkWebView contentMode="scaleToFill" customUserAgent="TheRoar iOS webview" translatesAutoresizingMaskIntoConstraints="NO" id="nv7-cF-sOB">
+                                <rect key="frame" x="0.0" y="60" width="375" height="607"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration" applicationNameForUserAgent="TheRoar iOS webView">
+                                <wkWebViewConfiguration key="configuration" applicationNameForUserAgent="TheRoar iOS WebView">
                                     <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
@@ -47,6 +47,17 @@
                                     <action selector="goForward:" destination="BYZ-38-t0r" eventType="touchUpInside" id="19f-nZ-O6l"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0cy-jt-dWh" userLabel="homeButton">
+                                <rect key="frame" x="167" y="20" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="HoR-MH-ZDy"/>
+                                    <constraint firstAttribute="width" constant="40" id="Z5q-V2-4mx"/>
+                                </constraints>
+                                <state key="normal" image="home.png"/>
+                                <connections>
+                                    <action selector="goHome:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tmT-Fc-kdh"/>
+                                </connections>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default-7506-portrait_750x1334.png" translatesAutoresizingMaskIntoConstraints="NO" id="g1b-PW-gbW">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -54,20 +65,25 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="uJZ-sz-JMA" firstAttribute="leading" secondItem="nv7-cF-sOB" secondAttribute="leading" constant="16" id="2WK-lb-dO0"/>
-                            <constraint firstAttribute="trailing" secondItem="nv7-cF-sOB" secondAttribute="trailing" id="9Lv-WE-R0k"/>
-                            <constraint firstItem="g1b-PW-gbW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BDb-hc-hf6"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gtC-5L-aWk" secondAttribute="trailing" constant="16" id="GYr-vW-Ilr"/>
-                            <constraint firstItem="nv7-cF-sOB" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Mha-he-TAD"/>
-                            <constraint firstItem="g1b-PW-gbW" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="PMi-Ca-bhZ"/>
-                            <constraint firstItem="gtC-5L-aWk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="Qtr-0T-En2" userLabel="forwardButton.top = Safe Area.bottom"/>
-                            <constraint firstItem="uJZ-sz-JMA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="Xrx-Uz-s0b"/>
-                            <constraint firstItem="uJZ-sz-JMA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="g5n-LJ-FQ5" userLabel="backButton.top = Safe Area.bottom"/>
-                            <constraint firstItem="nv7-cF-sOB" firstAttribute="top" secondItem="uJZ-sz-JMA" secondAttribute="bottom" constant="8" id="gKb-o2-g2o" userLabel="My Web View.top = Button.bottom"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gtC-5L-aWk" secondAttribute="bottom" constant="607" id="iL1-Ow-Apq"/>
-                            <constraint firstItem="g1b-PW-gbW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="kJW-Bn-3QL"/>
-                            <constraint firstAttribute="trailing" secondItem="uJZ-sz-JMA" secondAttribute="trailing" constant="319" id="kZR-6R-a4J"/>
-                            <constraint firstItem="gtC-5L-aWk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="319" id="wNZ-n1-aeq"/>
+                            <constraint firstItem="0cy-jt-dWh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="7f5-eo-ZQi"/>
+                            <constraint firstItem="g1b-PW-gbW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="BDb-hc-hf6"/>
+                            <constraint firstItem="uJZ-sz-JMA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="CG8-fB-XYz"/>
+                            <constraint firstItem="g1b-PW-gbW" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="PMi-Ca-bhZ"/>
+                            <constraint firstItem="nv7-cF-sOB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="SLt-4B-WJ9"/>
+                            <constraint firstItem="0cy-jt-dWh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="c2S-HG-b2r"/>
+                            <constraint firstItem="nv7-cF-sOB" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="cCX-FG-lBf"/>
+                            <constraint firstItem="gtC-5L-aWk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-56" id="dPo-4c-40p"/>
+                            <constraint firstItem="0cy-jt-dWh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="eEv-BM-3z7"/>
+                            <constraint firstItem="nv7-cF-sOB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ezG-na-Om6"/>
+                            <constraint firstItem="nv7-cF-sOB" firstAttribute="top" secondItem="uJZ-sz-JMA" secondAttribute="bottom" id="fuu-eX-Mm7"/>
+                            <constraint firstItem="uJZ-sz-JMA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="h0i-fe-vwn"/>
+                            <constraint firstItem="gtC-5L-aWk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="h4m-Jl-Irp"/>
+                            <constraint firstItem="gtC-5L-aWk" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="jYM-kL-vkv"/>
+                            <constraint firstItem="g1b-PW-gbW" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="kJW-Bn-3QL"/>
+                            <constraint firstItem="uJZ-sz-JMA" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="mge-tX-rnx"/>
+                            <constraint firstItem="uJZ-sz-JMA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="56" id="qyR-an-FV3"/>
+                            <constraint firstItem="gtC-5L-aWk" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-16" id="skk-Nr-7fg"/>
+                            <constraint firstItem="g1b-PW-gbW" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="thQ-3f-hws"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -83,6 +99,7 @@
     </scenes>
     <resources>
         <image name="Default-7506-portrait_750x1334.png" width="375" height="667"/>
+        <image name="home.png" width="64" height="64"/>
         <image name="icons8-back-50.png" width="50" height="50"/>
         <image name="icons8-forward-50.png" width="50" height="50"/>
     </resources>

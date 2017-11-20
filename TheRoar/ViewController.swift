@@ -24,6 +24,10 @@ class ViewController: UIViewController, WKNavigationDelegate {
             myWebView.goForward()
         }
     }
+    @IBAction func goHome(_ sender: UIButton) {
+        let url = URL(string: "http://nvroar.com")
+        myWebView.load(URLRequest(url: url!))
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
